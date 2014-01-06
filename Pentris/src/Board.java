@@ -1,4 +1,3 @@
- 
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -13,7 +12,7 @@ import javax.swing.Timer;
   
 public class Board extends JPanel implements ActionListener{ 
     private final int HEIGHT=20; 
-    private final int WIDTH=10; 
+    private final int WIDTH=20; //if this is 20 it  
     private char[][] board=new char[HEIGHT][WIDTH]; 
     private char[][] boardBeforeMove=new char[HEIGHT][WIDTH]; 
     private char[][] boardAfterMove=new char[HEIGHT][WIDTH]; 
